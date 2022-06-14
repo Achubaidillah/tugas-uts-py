@@ -1,0 +1,16 @@
+print("HASIL UJIAN PRAKTEK UBAIDILLAH")
+
+class UBAIDILLAH:
+    def __init__(self, nama, nilai):
+        self.nama = nama
+        self.nilai = nilai
+
+        for i in nama,nilai:
+            print(i)
+        if nilai <= 60:
+            print("Harus ngulang")
+        else :
+            print("lanjut Ujian selanjutnya ")
+
+
+p1 = UBAIDILLAH (input("UBAIDILLAH"), int(input("masukkan nilai tes =")))
